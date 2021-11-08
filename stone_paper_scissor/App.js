@@ -21,7 +21,10 @@ import MainScreen from './src/screens/MainScreen';
 
 const App = () => {
   return (
+    
     <SafeAreaView style={styles.root}>
+      <StatusBar style={{backgroundColor:'black'}}
+    />
       <MainScreen/>
     </SafeAreaView>
   );
@@ -30,6 +33,7 @@ const App = () => {
 const styles = StyleSheet.create({
   root:{
     flex:1,
+    backgroundColor:'#6E8F85',
   },
 });
 
