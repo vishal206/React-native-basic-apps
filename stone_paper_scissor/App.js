@@ -20,13 +20,13 @@ import {
 import MainScreen from './src/screens/MainScreen';
 
 const App = () => {
-  return (
-    
+  return (  
     <SafeAreaView style={styles.root}>
-      <StatusBar style={{backgroundColor:'black'}}
+    <StatusBar backgroundColor='#6E8F85'
     />
       <MainScreen/>
     </SafeAreaView>
+    
   );
 };
 
